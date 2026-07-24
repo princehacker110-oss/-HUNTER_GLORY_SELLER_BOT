@@ -14,7 +14,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("🛒 Buy Guild Glory", callback_data="buy")],
         [InlineKeyboardButton("💰 Price List", callback_data="price")],
         [InlineKeyboardButton("📦 My Orders", callback_data="orders")],
-        [InlineKeyboardButton("👤 My Profile", callback_data="profile")],
+        [InlineKeyboardButton("👤 My  Profile", callback_data="profile")],
         [InlineKeyboardButton("❓ How To Buy", callback_data="how")],
         [InlineKeyboardButton("🎧 Support", url=f"https://t.me/{SUPPORT.replace('@','')}")],
         [InlineKeyboardButton("📢 Proof Channel", url=PROOF)]
